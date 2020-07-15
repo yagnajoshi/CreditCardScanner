@@ -1,0 +1,73 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner",
+      "sdkFolder": "F:\\sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build\\intermediates",
+      "gradleModulePathName": ":sdk",
+      "moduleRootFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk",
+      "makeFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\.cxx",
+      "cxxFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx",
+      "ndkFolder": "F:\\ndk",
+      "ndkVersion": "17.0.4754217",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared",
+      "-DCMAKE_BUILD_TYPE\u003dRelease"
+    ],
+    "cFlagList": [],
+    "cppFlagsList": [],
+    "variantName": "profiling",
+    "soFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build\\intermediates\\cmake\\profiling\\lib",
+    "objFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build\\intermediates\\cmake\\profiling\\obj",
+    "jsonFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\profiling",
+    "gradleBuildOutputFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\profiling",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "X86",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\profiling\\x86",
+  "jsonFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\profiling\\x86\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\profiling\\x86",
+  "objFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build\\intermediates\\cmake\\profiling\\obj\\x86",
+  "buildCommandFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\profiling\\x86\\build_command.txt",
+  "buildOutputFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\profiling\\x86\\build_output.txt",
+  "modelOutputFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\profiling\\x86\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\profiling\\x86\\CMakeLists.txt",
+    "toolchainWrapperFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\profiling\\x86\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\profiling\\x86\\build_generation_state.json",
+    "cacheKeyFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\profiling\\x86\\compiler_cache_key.json",
+    "compilerCacheUseFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\profiling\\x86\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\profiling\\x86\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\profiling\\x86\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\profiling\\x86\\json_generation_record.json",
+  "compileCommandsJsonFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\profiling\\x86\\compile_commands.json"
+}

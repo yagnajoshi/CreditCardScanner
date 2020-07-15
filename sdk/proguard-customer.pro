@@ -1,0 +1,2 @@
+-keep class com.yagna.cardscanner.sdk.ndk.RecognitionCore { *; }
+-dontnote cards.yagna.cardscanner.sdk.ndk.RecognitionCore

@@ -1,0 +1,56 @@
+apply plugin: 'com.android.application'
+
+uploadArchives.enabled = false
+
+/*ext.private = new Properties()
+if (rootProject.file('private.properties').exists()) {
+    ext.private.load(new FileInputStream(rootProject.file('private.properties')))
+}*/
+
+android {
+    compileSdkVersion 28
+
+    defaultConfig {
+        applicationId "com.yagna.sample.demo"
+        minSdkVersion 16
+        targetSdkVersion 28
+        versionCode Integer.parseInt(DEMO_APP_VERSION_CODE)
+        versionName DEMO_APP_VERSION_NAME
+        resConfigs "en"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug {
+            applicationIdSuffix ".dbg"
+            minifyEnabled false
+            jniDebuggable true
+        }
+        profiling {
+            initWith debug
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(path: ":sdk")
+    //debugCompile project(path: ":sdk", configuration: 'release')
+    //releaseCompile project(path: ":sdk", configuration: 'release')
+    implementation 'androidx.annotation:annotation:1.0.2'
+    implementation 'androidx.appcompat:appcompat:1.0.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+}
+
+
