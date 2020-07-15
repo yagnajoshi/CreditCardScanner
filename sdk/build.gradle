@@ -1,6 +1,10 @@
 apply plugin: 'com.android.library'
 apply from: rootProject.file('gradle/gradle-mvn-push.gradle')
 
+apply plugin: 'com.github.dcendents.android-maven'
+group='com.github.yagnajoshi'
+
+
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
