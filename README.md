@@ -7,7 +7,7 @@ Automatic recognition of bank card data using built-in camera on Android devices
 
 ### Installation
 
-* Add Maven URL for the pay.cards repository to your project `build.gradle` file.
+* Add Maven URL for the Card Scanner repository to your project `build.gradle` file.
 
     ```gradle
     repositories {
