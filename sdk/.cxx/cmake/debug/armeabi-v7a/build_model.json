@@ -5,7 +5,6 @@
       "sdkFolder": "F:\\sdk",
       "isNativeCompilerSettingsCacheEnabled": false,
       "isBuildOnlyTargetAbiEnabled": true,
-      "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
       "splitsAbiFilterSet": [],
       "intermediatesFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build\\intermediates",
       "gradleModulePathName": ":sdk",
@@ -42,8 +41,10 @@
     "gradleBuildOutputFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\debug",
     "isDebuggableEnabled": true,
     "validAbiList": [
+      "ARMEABI_V7A",
       "ARM64_V8A",
-      "ARMEABI_V7A"
+      "X86",
+      "X86_64"
     ],
     "buildTargetSet": []
   },
