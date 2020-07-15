@@ -1,1 +1,2 @@
+ninja: Entering directory `F:\YagnaMitra\Yagna\CreditCardScanner\sdk\.cxx\cmake\debug\arm64-v8a'
 ninja: no work to do.

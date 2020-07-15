@@ -8,28 +8,31 @@ group='com.github.yagnajoshi'
 android {
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    testBuildType "profiling"
+   // testBuildType "profiling"
 
     defaultConfig {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 3
-        versionName "1.0.2"
+        versionCode 4
+        versionName "1.0.3"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         externalNativeBuild {
             cmake {
                 abiFilters 'armeabi-v7a', "arm64-v8a", "x86",  "x86_64"
-                arguments '-DANDROID_STL=c++_shared'
+                arguments '-DANDROID_STL=c++_shared','-DCMAKE_BUILD_TYPE=Release'//, '-DCMAKE_VERBOSE_MAKEFILE=1'
+                //path "src/main/cpp/CMakeLists.txt"
+
             }
         }
     }
-    externalNativeBuild {
-        cmake {
+      externalNativeBuild {
+       cmake {
             path "src/main/cpp/CMakeLists.txt"
+
         }
     }
-    buildTypes {
+   /* buildTypes {
         release {
             minifyEnabled true
             jniDebuggable false
@@ -48,7 +51,7 @@ android {
                 }
             }
         }
-    }
+    }*/
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_7

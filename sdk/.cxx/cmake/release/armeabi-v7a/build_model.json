@@ -1,72 +1,223 @@
 {
-  "variant": {
-    "module": {
-      "rootBuildGradleFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner",
-      "sdkFolder": "F:\\sdk",
-      "isNativeCompilerSettingsCacheEnabled": false,
-      "isBuildOnlyTargetAbiEnabled": true,
-      "splitsAbiFilterSet": [],
-      "intermediatesFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build\\intermediates",
-      "gradleModulePathName": ":sdk",
-      "moduleRootFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk",
-      "makeFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\CMakeLists.txt",
-      "buildSystem": "CMAKE",
-      "compilerSettingsCacheFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\.cxx",
-      "cxxFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx",
-      "ndkFolder": "F:\\ndk",
-      "ndkVersion": "17.0.4754217",
-      "ndkSupportedAbiList": [
-        "ARMEABI_V7A",
-        "ARM64_V8A",
-        "X86",
-        "X86_64"
+  "abi": "ARMEABI_V7A",
+  "abiPlatformVersion": 16,
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "cmake": {
+    "cmakeArtifactsBaseFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\armeabi-v7a",
+    "cmakeServerLogFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\armeabi-v7a\\cmake_server_log.txt",
+    "cmakeWrappingBaseFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\release\\armeabi-v7a",
+    "effectiveConfiguration": {
+      "name": "traditional-android-studio-cmake-environment",
+      "description": "Composite reified CMakeSettings configuration",
+      "generator": "Ninja",
+      "inheritEnvironments": [
+        "ndk"
       ],
+      "buildRoot": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\armeabi-v7a",
+      "cmakeToolchain": "F:\\ndk\\build\\cmake\\android.toolchain.cmake",
+      "cmakeExecutable": "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+      "variables": [
+        {
+          "name": "CMAKE_FIND_ROOT_PATH",
+          "value": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\prefab\\armeabi-v7a\\prefab"
+        },
+        {
+          "name": "CMAKE_TOOLCHAIN_FILE",
+          "value": "F:\\ndk\\build\\cmake\\android.toolchain.cmake"
+        },
+        {
+          "name": "ANDROID_ABI",
+          "value": "armeabi-v7a"
+        },
+        {
+          "name": "ANDROID_NDK",
+          "value": "F:\\ndk"
+        },
+        {
+          "name": "ANDROID_PLATFORM",
+          "value": "android-16"
+        },
+        {
+          "name": "CMAKE_ANDROID_ARCH_ABI",
+          "value": "armeabi-v7a"
+        },
+        {
+          "name": "CMAKE_ANDROID_NDK",
+          "value": "F:\\ndk"
+        },
+        {
+          "name": "CMAKE_EXPORT_COMPILE_COMMANDS",
+          "value": "ON"
+        },
+        {
+          "name": "CMAKE_LIBRARY_OUTPUT_DIRECTORY",
+          "value": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a"
+        },
+        {
+          "name": "CMAKE_MAKE_PROGRAM",
+          "value": "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+        },
+        {
+          "name": "CMAKE_SYSTEM_NAME",
+          "value": "Android"
+        },
+        {
+          "name": "CMAKE_SYSTEM_VERSION",
+          "value": "16"
+        },
+        {
+          "name": "ANDROID_STL",
+          "value": "c++_shared"
+        },
+        {
+          "name": "CMAKE_BUILD_TYPE",
+          "value": "Release"
+        }
+      ]
+    }
+  },
+  "cxxBuildFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\armeabi-v7a",
+  "info": {
+    "abi": "ARMEABI_V7A",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "originalCxxBuildFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\armeabi-v7a",
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_shared",
+      "-DCMAKE_BUILD_TYPE\u003dRelease"
+    ],
+    "buildTargetSet": [],
+    "cFlagsList": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "cppFlagsList": [],
+    "isDebuggableEnabled": false,
+    "module": {
+      "buildSystem": "CMAKE",
+      "cmake": {
+        "cmakeExe": "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.10.2",
+        "ninjaExe": "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe"
+      },
+      "cmakeToolchainFile": "F:\\ndk\\build\\cmake\\android.toolchain.cmake",
+      "cxxFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx",
+      "gradleModulePathName": ":sdk",
+      "intermediatesFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build\\intermediates",
+      "makeFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\CMakeLists.txt",
+      "moduleBuildFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build.gradle",
+      "moduleRootFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk",
       "ndkDefaultAbiList": [
         "ARMEABI_V7A",
         "ARM64_V8A",
         "X86",
         "X86_64"
       ],
-      "cmakeToolchainFile": "."
+      "ndkFolder": "F:\\ndk",
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 28,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28
+        }
+      },
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "GNUSTL_STATIC",
+      "ndkVersion": "17.0.4754217",
+      "project": {
+        "compilerSettingsCacheFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\.cxx",
+        "cxxFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\.cxx",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isNativeCompilerSettingsCacheEnabled": false,
+        "rootBuildGradleFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner",
+        "sdkFolder": "F:\\sdk",
+        "isPrefabEnabled": false
+      },
+      "splitsAbiFilterSet": [],
+      "stlSharedObjectMap": {
+        "GNUSTL_SHARED": {
+          "ARMEABI_V7A": "F:\\ndk\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi-v7a\\libgnustl_shared.so",
+          "ARM64_V8A": "F:\\ndk\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\arm64-v8a\\libgnustl_shared.so",
+          "X86": "F:\\ndk\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86\\libgnustl_shared.so",
+          "X86_64": "F:\\ndk\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\x86_64\\libgnustl_shared.so"
+        },
+        "GNUSTL_STATIC": {},
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "F:\\ndk\\sources\\cxx-stl\\llvm-libc++\\libs\\armeabi-v7a\\libc++_shared.so",
+          "ARM64_V8A": "F:\\ndk\\sources\\cxx-stl\\llvm-libc++\\libs\\arm64-v8a\\libc++_shared.so",
+          "X86": "F:\\ndk\\sources\\cxx-stl\\llvm-libc++\\libs\\x86\\libc++_shared.so",
+          "X86_64": "F:\\ndk\\sources\\cxx-stl\\llvm-libc++\\libs\\x86_64\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "STLPORT_SHARED": {
+          "ARMEABI_V7A": "F:\\ndk\\sources\\cxx-stl\\stlport\\libs\\armeabi-v7a\\libstlport_shared.so",
+          "ARM64_V8A": "F:\\ndk\\sources\\cxx-stl\\stlport\\libs\\arm64-v8a\\libstlport_shared.so",
+          "X86": "F:\\ndk\\sources\\cxx-stl\\stlport\\libs\\x86\\libstlport_shared.so",
+          "X86_64": "F:\\ndk\\sources\\cxx-stl\\stlport\\libs\\x86_64\\libstlport_shared.so"
+        },
+        "STLPORT_STATIC": {},
+        "SYSTEM": {}
+      }
     },
-    "buildSystemArgumentList": [
-      "-DANDROID_STL\u003dc++_shared"
-    ],
-    "cFlagList": [],
-    "cppFlagsList": [],
-    "variantName": "release",
-    "soFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build\\intermediates\\cmake\\release\\lib",
     "objFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build\\intermediates\\cmake\\release\\obj",
-    "jsonFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release",
-    "gradleBuildOutputFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\release",
-    "isDebuggableEnabled": false,
+    "variantName": "release",
     "validAbiList": [
       "ARMEABI_V7A",
       "ARM64_V8A",
       "X86",
       "X86_64"
     ],
-    "buildTargetSet": []
+    "prefabDirectory": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\prefab",
+    "prefabPackageDirectoryList": []
   },
-  "abi": "ARMEABI_V7A",
-  "abiPlatformVersion": 16,
-  "cxxBuildFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\armeabi-v7a",
-  "jsonFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\armeabi-v7a\\android_gradle_build.json",
-  "gradleBuildOutputFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\release\\armeabi-v7a",
-  "objFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build\\intermediates\\cmake\\release\\obj\\armeabi-v7a",
-  "buildCommandFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\armeabi-v7a\\build_command.txt",
-  "buildOutputFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\armeabi-v7a\\build_output.txt",
-  "modelOutputFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\armeabi-v7a\\build_model.json",
-  "cmake": {
-    "cmakeListsWrapperFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\release\\armeabi-v7a\\CMakeLists.txt",
-    "toolchainWrapperFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\release\\armeabi-v7a\\android_gradle_build.toolchain.cmake",
-    "buildGenerationStateFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\release\\armeabi-v7a\\build_generation_state.json",
-    "cacheKeyFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_key.json",
-    "compilerCacheUseFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_use.json",
-    "compilerCacheWriteFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_cache_write.json",
-    "toolchainSettingsFromCacheFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cxx\\release\\armeabi-v7a\\compiler_settings_cache.cmake",
-    "cmakeWrappingBaseFolder": "."
-  },
-  "jsonGenerationLoggingRecordFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\armeabi-v7a\\json_generation_record.json",
-  "compileCommandsJsonFile": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\armeabi-v7a\\compile_commands.json"
+  "prefabFolder": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\release\\prefab\\armeabi-v7a"
 }

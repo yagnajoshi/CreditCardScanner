@@ -1,86 +1,68 @@
 {
   "buildFiles": [
-    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\CMakeLists.txt",
-    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\armneon2x86sse\\CMakeLists.txt",
-    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\eigen\\CMakeLists.txt",
-    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\protobuf\\CMakeLists.txt",
-    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\caffe\\CMakeLists.txt",
+    "F:\\ndk\\build\\cmake\\android.toolchain.cmake",
+    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\armneon2x86sse\\cmake\\Config.cmake.in",
+    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\abi-arm64-v8a\\OpenCVModules.cmake",
     "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\libyuv\\CMakeLists.txt",
-    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\crossplatform\\CMakeLists.txt"
+    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\abi-arm64-v8a\\OpenCVModules-release.cmake",
+    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\armneon2x86sse\\CMakeLists.txt",
+    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\OpenCVConfig.cmake",
+    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\CMakeLists.txt",
+    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\crossplatform\\CMakeLists.txt",
+    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\abi-arm64-v8a\\OpenCVConfig.cmake",
+    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\eigen\\CMakeLists.txt",
+    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\jni\\OpenCVConfig-version.cmake",
+    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\caffe\\CMakeLists.txt",
+    "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\protobuf\\CMakeLists.txt"
   ],
   "cleanCommands": [
-    "F:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a --target clean"
+    "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\" clean"
   ],
+  "buildTargetsCommand": "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe  -C \"F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
   "libraries": {
-    "tbb-Debug-arm64-v8a": {
-      "artifactName": "tbb",
-      "abi": "arm64-v8a",
-      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libtbb.a"
-    },
-    "protobuf-Debug-arm64-v8a": {
+    "protobuf-Release-arm64-v8a": {
       "artifactName": "protobuf",
-      "buildCommand": "F:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a --target protobuf",
+      "buildCommand": "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\" protobuf",
       "abi": "arm64-v8a",
-      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\\protobuf\\libprotobuf.a"
+      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\\protobuf\\libprotobuf.a",
+      "runtimeFiles": []
     },
-    "opencv_core-Debug-arm64-v8a": {
-      "artifactName": "opencv_core",
-      "abi": "arm64-v8a",
-      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_core.a"
-    },
-    "opencv_imgproc-Debug-arm64-v8a": {
-      "artifactName": "opencv_imgproc",
-      "abi": "arm64-v8a",
-      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgproc.a"
-    },
-    "cardrecognizer-Debug-arm64-v8a": {
-      "artifactName": "cardrecognizer",
-      "buildCommand": "F:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a --target cardrecognizer",
-      "abi": "arm64-v8a",
-      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libcardrecognizer.so"
-    },
-    "opencv_ml-Debug-arm64-v8a": {
-      "artifactName": "opencv_ml",
-      "abi": "arm64-v8a",
-      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_ml.a"
-    },
-    "caffe-Debug-arm64-v8a": {
+    "caffe-Release-arm64-v8a": {
       "artifactName": "caffe",
-      "buildCommand": "F:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a --target caffe",
+      "buildCommand": "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\" caffe",
       "abi": "arm64-v8a",
-      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\\caffe\\libcaffe.a"
+      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\\caffe\\libcaffe.a",
+      "runtimeFiles": []
     },
-    "opencv_objdetect-Debug-arm64-v8a": {
-      "artifactName": "opencv_objdetect",
+    "cardrecognizer-Release-arm64-v8a": {
+      "artifactName": "cardrecognizer",
+      "buildCommand": "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\" cardrecognizer",
       "abi": "arm64-v8a",
-      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_objdetect.a"
+      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a\\libcardrecognizer.so",
+      "runtimeFiles": [
+        "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_objdetect.a",
+        "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgcodecs.a",
+        "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgproc.a",
+        "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_ml.a",
+        "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_core.a",
+        "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libtbb.a",
+        "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libcpufeatures.a",
+        "F:\\ndk\\sources\\cxx-stl\\llvm-libc++\\libs\\arm64-v8a\\libc++_shared.so"
+      ]
     },
-    "libcpufeatures-Debug-arm64-v8a": {
-      "artifactName": "libcpufeatures",
-      "abi": "arm64-v8a",
-      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\3rdparty\\libs\\arm64-v8a\\libcpufeatures.a"
-    },
-    "crossplatform-Debug-arm64-v8a": {
-      "artifactName": "crossplatform",
-      "buildCommand": "F:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a --target crossplatform",
-      "abi": "arm64-v8a",
-      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\\crossplatform\\libcrossplatform.a"
-    },
-    "opencv_videoio-Debug-arm64-v8a": {
-      "artifactName": "opencv_videoio",
-      "abi": "arm64-v8a",
-      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_videoio.a"
-    },
-    "libyuv-Debug-arm64-v8a": {
+    "libyuv-Release-arm64-v8a": {
       "artifactName": "libyuv",
-      "buildCommand": "F:\\sdk\\cmake\\3.6.4111459\\bin\\cmake.exe --build F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a --target libyuv",
+      "buildCommand": "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\" libyuv",
       "abi": "arm64-v8a",
-      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\\libyuv\\liblibyuv.a"
+      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\\libyuv\\liblibyuv.a",
+      "runtimeFiles": []
     },
-    "opencv_imgcodecs-Debug-arm64-v8a": {
-      "artifactName": "opencv_imgcodecs",
+    "crossplatform-Release-arm64-v8a": {
+      "artifactName": "crossplatform",
+      "buildCommand": "F:\\sdk\\cmake\\3.10.2.4988404\\bin\\ninja.exe -C \"F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\" crossplatform",
       "abi": "arm64-v8a",
-      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\src\\main\\cpp\\opencv2\\sdk\\native\\staticlibs\\arm64-v8a\\libopencv_imgcodecs.a"
+      "output": "F:\\YagnaMitra\\Yagna\\CreditCardScanner\\sdk\\.cxx\\cmake\\debug\\arm64-v8a\\crossplatform\\libcrossplatform.a",
+      "runtimeFiles": []
     }
   }
 }

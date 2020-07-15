@@ -1,15 +1,22 @@
-Executable : F:\sdk\cmake\3.6.4111459\bin\cmake.exe
+Executable : F:\sdk\cmake\3.10.2.4988404\bin\cmake.exe
 arguments : 
 -HF:\YagnaMitra\Yagna\CreditCardScanner\sdk\src\main\cpp
--BF:\YagnaMitra\Yagna\CreditCardScanner\sdk\.cxx\cmake\release\x86_64
--DANDROID_ABI=x86_64
--DANDROID_PLATFORM=android-16
--DCMAKE_LIBRARY_OUTPUT_DIRECTORY=F:\YagnaMitra\Yagna\CreditCardScanner\sdk\build\intermediates\cmake\release\obj\x86_64
--DCMAKE_BUILD_TYPE=Release
--DANDROID_NDK=F:\ndk
+-DCMAKE_FIND_ROOT_PATH=F:\YagnaMitra\Yagna\CreditCardScanner\sdk\.cxx\cmake\release\prefab\x86_64\prefab
 -DCMAKE_TOOLCHAIN_FILE=F:\ndk\build\cmake\android.toolchain.cmake
--DCMAKE_MAKE_PROGRAM=F:\sdk\cmake\3.6.4111459\bin\ninja.exe
--GAndroid Gradle - Ninja
+-DANDROID_ABI=x86_64
+-DANDROID_NDK=F:\ndk
+-DANDROID_PLATFORM=android-16
+-DCMAKE_ANDROID_ARCH_ABI=x86_64
+-DCMAKE_ANDROID_NDK=F:\ndk
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=F:\YagnaMitra\Yagna\CreditCardScanner\sdk\build\intermediates\cmake\release\obj\x86_64
+-DCMAKE_MAKE_PROGRAM=F:\sdk\cmake\3.10.2.4988404\bin\ninja.exe
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_SYSTEM_VERSION=16
 -DANDROID_STL=c++_shared
+-DCMAKE_BUILD_TYPE=Release
+-BF:\YagnaMitra\Yagna\CreditCardScanner\sdk\.cxx\cmake\release\x86_64
+-GNinja
 jvmArgs : 
 
+Build command args:
