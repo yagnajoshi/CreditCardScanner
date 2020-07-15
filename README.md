@@ -1,16 +1,18 @@
-# PAY.CARDS RECOGNIZER
+# Card Scanner
+[![](https://jitpack.io/v/yagnajoshi/CreditCardScanner.svg)](https://jitpack.io/#yagnajoshi/CreditCardScanner)
+
 
 Automatic recognition of bank card data using built-in camera on Android devices.
 
-See live demo: [pay.cards](https://play.google.com/store/apps/details?id=cards.pay.demo)
 
 ### Installation
 
-* Add Maven URL for the pay.cards repository to your project `build.gradle` file.
+* Add Maven URL for the Card Scanner repository to your project `build.gradle` file.
 
     ```gradle
     repositories {
-         maven { url "http://pay.cards/maven" }
+         			maven { url 'https://jitpack.io' }
+
     }
     ```
 
@@ -19,7 +21,8 @@ See live demo: [pay.cards](https://play.google.com/store/apps/details?id=cards.p
 
     ```gradle
     dependencies {
-        implementation 'cards.pay:paycardsrecognizer:1.1.0'
+	        implementation 'com.github.yagnajoshi:CreditCardScanner:Tag'
+
     }
     ```
 
